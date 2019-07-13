@@ -1,9 +1,10 @@
 import React from 'react';
 import Navbar from '../components/navbar';
+import Layout from '../components/layout';
 
 export default () => (
-    <div>
+    <Layout>
         <Navbar />
         <h1>Propiedades en Arriendo</h1>
-    </div>
+    </Layout>
 );

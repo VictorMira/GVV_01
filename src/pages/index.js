@@ -1,3 +1,13 @@
-import React from "react"
+import React from "react";
+import Navbar from '../components/navbar';
 
-export default () => <div>Página en Construcción</div>
+
+export default () => (
+
+<div >
+    <Navbar />
+    <h1>Publica tu Propiedad</h1>
+
+</div>
+
+);

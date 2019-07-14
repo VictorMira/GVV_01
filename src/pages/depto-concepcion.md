@@ -20,14 +20,14 @@ area_t: "S/I"
 
 Se vende Amplio departamento
 En Concepción, locomoción a la puerta.
-
-
-Piso 10
-Balcón con hermosa vista 
-2 ascensores
-Conserjes 24 HRS
-
 Excelente conectividad, a minutos del hospital clínico del Sur, supermercados, colegios, terminal de buses, universidades, cafés y restaurantes.
 Locomoción a la puerta por calle Las Heras.
+
+
+* Piso 10
+* Balcón con hermosa vista 
+* 2 ascensores
+* Conserjes 24 HRS
+
 
 

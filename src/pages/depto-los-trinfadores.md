@@ -12,16 +12,16 @@ logia: "Espacio para lavadora y secadora"
 living: "S/I"
 estacionamiento: "1 Estacionamiento"
 gastocomun: "Gasto comun incluído"
+area_u: "S/I"
+area_t: "S/I"
 
 ---
-
-Excelente conectividad.
-
-
-Ventanas termopanel
-Balcon con vista panorámica
-Sol de Mañana
-Acceso controlado 24 hrs
-
 Departamento amplio, en cuarto piso, con excelente conectividad, a un costado de Universidad Santa Maria, a pasos de Mall del trébol, bancos, supermercados, aeropuerto, casino, colegios, universidades, locomoción.
+
+* Excelente conectividad.
+* Ventanas termopanel
+* Balcon con vista panorámica
+* Sol de Mañana
+* Acceso controlado 24 hrs
+
 

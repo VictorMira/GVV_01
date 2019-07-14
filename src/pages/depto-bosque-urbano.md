@@ -12,16 +12,18 @@ living: "S/I"
 logia: "No"
 estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
+area_u: "62,58m2"
+area_t: "S/I"
 ---
 
 Arriendo departamento nuevo
 A pasos de Universidad de Concepcion, 
 con maravillosas vistas de la ciudad.
 
-Closet en ambos dormitorios
-Balcón con maravillosa vista al bosque y la ciudad
-Ventanas Termopanel
-Acceso controlado 24 hrs
-Sector muy tranquilo
-Locomoción a pasos del condominio
-62,58 Mt2
+* Closet en ambos dormitorios
+* Balcón con maravillosa vista al bosque y la ciudad
+* Ventanas Termopanel
+* Acceso controlado 24 hrs
+* Sector muy tranquilo
+* Locomoción a pasos del condominio
+

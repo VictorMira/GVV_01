@@ -9,7 +9,6 @@ export default () => (
 <Layout>
     <Navbar />
     <h1>Publica tu Propiedad</h1>
-
 </Layout>
 
 );

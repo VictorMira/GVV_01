@@ -13,17 +13,20 @@ living: "Living con cerámico y calefacción"
 logia: "No"
 estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
+area_u: "S/I"
+area_t: "S/I"
 
 ---
 
 Arriendo departamento con hermosa vista del centro de Concepcion.
-Ventanas termopanel
-Balcon con vista al centro de Concepcion
-Cortinas Rollers
-Quincho
-Gimnasio
-Salon Multiuso
-Juegos para niños
-Conserjería 24 hrs
+
+* Ventanas termopanel
+* Balcon con vista al centro de Concepcion
+* Cortinas Rollers
+* Quincho
+* Gimnasio
+* Salon Multiuso
+* Juegos para niños
+* Conserjería 24 hrs
 
 

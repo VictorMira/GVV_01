@@ -12,12 +12,14 @@ living: "S/I"
 logia: "No"
 estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
+area_u: "S/I"
+area_t: "S/I"
 ---
 
-Arriendo departamento nuevo
-a pasos de Universidad de Concepcion.
-Balcón 
-Hermoso entorno
-Sector muy tranquilo
-Acceso controlado 24 hrs
+Arriendo departamento nuevo a pasos de Universidad de Concepcion.
+
+* Balcón 
+* Hermoso entorno
+* Sector muy tranquilo
+* Acceso controlado 24 hrs
 

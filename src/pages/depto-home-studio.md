@@ -12,16 +12,15 @@ living: "S/I"
 logia: "No"
 estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
+area_u: "S/I"
+area_t: "S/I"
 ---
 
-A pasos de Universidad de Concepcion, 
-
-  
-
-Balcón 
-Ventanas Termopanel
-Sector tranquilo
-Acceso controlado 24 hrs
-
 A pasos de universidad de Concepción y centro de la ciudad, locomoción cercana al Condominio
+
+* Balcón 
+* Ventanas Termopanel
+* Sector tranquilo
+* Acceso controlado 24 hrs
+
 

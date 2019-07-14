@@ -21,7 +21,8 @@ area_t: "S/I"
 ¡¡Gran oportunidad!! 
 Se vende Departamento camino a Santa Juana
 Sector de alta Plusvalía a pocos minutos del centro de Concepcion.
-Departamento tipo Americano
-Acceso independiente
+
+* Departamento tipo Americano
+* Acceso independiente
 
 

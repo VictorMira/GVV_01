@@ -6,13 +6,15 @@ import {FaBed, FaShower, FaWarehouse, FaRulerCombined } from 'react-icons/fa'
 
 export default ({ data }) => {
     const propiedad = data.markdownRemark
+
+     
     return (
         <Layout>
             <div>
                 <h1>{propiedad.frontmatter.title}</h1>
                 <h2>Propiedad en {propiedad.frontmatter.tipo}</h2>
-
                 <h2>Descripción de la Propiedad</h2>
+                
                 <div dangerouslySetInnerHTML={{ __html: propiedad.html}}/>
 
                 <h2>Caracteristicas de la Propiedad</h2>
@@ -29,7 +31,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-    query($slug: String!){
+    query PostQuery($slug: String!){
         markdownRemark(fields: { slug: { eq: $slug }} ){
             html
             frontmatter{
@@ -40,7 +42,9 @@ export const query = graphql`
                 estacionamiento
                 area_u
                 precio
-            }
+                featuredImage
+                }
         }
     }
 `
+

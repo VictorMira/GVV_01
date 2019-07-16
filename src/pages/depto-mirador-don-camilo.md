@@ -15,7 +15,7 @@ estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
 area_u: "S/I"
 area_t: "S/I"
-
+featuredImage: ../img/dpto-mirador-don-camilo/dpto-mirador-don-camilo-1.jpg
 ---
 
 Arriendo departamento con hermosa vista del centro de Concepcion.

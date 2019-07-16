@@ -14,7 +14,7 @@ estacionamiento: "1 Estacionamiento"
 gastocomun: "Gasto comun incluído"
 area_u: "S/I"
 area_t: "S/I"
-
+featuredImage: ../img/dpto-los-triunfadores/dpto-los-triunfadores-1.jpg
 ---
 Departamento amplio, en cuarto piso, con excelente conectividad, a un costado de Universidad Santa Maria, a pasos de Mall del trébol, bancos, supermercados, aeropuerto, casino, colegios, universidades, locomoción.
 

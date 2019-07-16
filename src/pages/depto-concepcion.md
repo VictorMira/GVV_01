@@ -15,7 +15,7 @@ bodega: "No"
 gastocomun: "No"
 area_u: "S/I"
 area_t: "S/I"
-
+featuredImage: ../img/dpto-concepcion/dpto-concepcion-1.jpg
 ---
 
 Se vende Amplio departamento

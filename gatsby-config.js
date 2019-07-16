@@ -13,8 +13,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `src`,
         path: `${__dirname}/src/`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
       }
     },
     `gatsby-transformer-remark`,
@@ -27,5 +40,11 @@ module.exports = {
         pathTonConfigModule: `src/utils/typography`,
       },
     },
-  ],
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 900,
+            }
+          }
+        ]
 }

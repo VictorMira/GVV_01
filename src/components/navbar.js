@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logo from '../assets/img/logo.svg'
+import logo from '../img/logo.svg'
 
 
 export default () => (

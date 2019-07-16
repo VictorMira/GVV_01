@@ -14,6 +14,7 @@ estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
 area_u: "S/I"
 area_t: "S/I"
+featuredImage: "../img/dpto-u-conce/dpto-u-conce-1.jpg"
 ---
 
 Arriendo departamento nuevo a pasos de Universidad de Concepcion.

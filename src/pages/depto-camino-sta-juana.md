@@ -15,7 +15,7 @@ bodega: "1"
 gastocomun: "No"
 area_u: "125m2"
 area_t: "S/I"
-
+featuredImage: ../img/dpto-camino-sta-juana/dpto-camino-sta-juana-1.jpg
 ---
 
 ¡¡Gran oportunidad!! 

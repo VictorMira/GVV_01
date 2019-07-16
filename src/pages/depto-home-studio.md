@@ -14,6 +14,7 @@ estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
 area_u: "S/I"
 area_t: "S/I"
+featuredImage: ../img/dpto-home-studio/dpto-home-studio-1.jpg
 ---
 
 A pasos de universidad de Concepción y centro de la ciudad, locomoción cercana al Condominio

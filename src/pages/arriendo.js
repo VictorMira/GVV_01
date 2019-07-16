@@ -18,10 +18,10 @@ export default ({data}) => {
         }>Propiedades en Arriendo</h1>
             <h4>{data.allMarkdownRemark.totalCount} Propiedades Publicadas</h4>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-                <Link to={node.fields.slug} css={css`
+                <Link to={node.fields.slug} key={node.id} css={css`
                     text-decoration: none;
                     color: inherit;`}>
-                    <div key={node.id}>
+                    <div>
                         <h3 
                         css={css`
                         margin-bottom: ${rhythm(1 / 4)};

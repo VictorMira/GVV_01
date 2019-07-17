@@ -5,6 +5,8 @@ import { rhythm } from '../utils/typography';
 import Navbar from '../components/navbar';
 import Layout from '../components/layout';
 
+import Img from 'gatsby-image';
+
 export default ({data}) => {
     console.log(data)
     return (
@@ -22,6 +24,7 @@ export default ({data}) => {
                     text-decoration: none;
                     color: inherit;`}>
                     <div key={node.id}>
+                        <Img fluid={node.frontmatter.album_image1.childImageSharp.fluid}/>
                         <h3 
                         css={css`
                         margin-bottom: ${rhythm(1 / 4)};
@@ -56,6 +59,13 @@ export const query = graphql`
                         title
                         precio
                         tipo
+                        album_image1 {
+                            childImageSharp{
+                                fluid(maxWidth: 900){
+                                 ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
                     }
                     fields {
                         slug

@@ -1,5 +1,6 @@
 ---
 title: "Departamento a Pasos U. de Concepción"
+destacada: 'no'
 tipo: "arriendo"
 date: "2019-07-13"
 precio: "$280.000"

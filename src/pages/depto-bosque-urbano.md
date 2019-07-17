@@ -1,5 +1,6 @@
 ---
 title: "Departamento Condominio Bosque Urbano"
+destacada: 'si'
 tipo: "arriendo"
 date: "2019-07-13"
 precio: "$350.000"

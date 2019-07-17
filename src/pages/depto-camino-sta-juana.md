@@ -1,5 +1,6 @@
 ---
 title: "Departamento Camino a Santa Juana"
+destacada: 'no'
 tipo: "venta"
 date: "2019-07-10"
 precio: "$78.000.000"

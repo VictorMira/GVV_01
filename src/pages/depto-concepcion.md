@@ -1,5 +1,6 @@
 ---
 title: "Departamento en Concepción"
+destacada: 'si'
 tipo: "venta"
 date: "2019-07-10"
 precio: "$91.000.000"

@@ -1,5 +1,6 @@
 ---
 title: "Departamento Condominio Bosque Mar"
+destacada: 'si'
 tipo: "venta"
 date: "2019-07-10"
 precio: "$85.000.000"

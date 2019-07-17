@@ -1,5 +1,6 @@
 ---
 title: "Home Studio Nuevo"
+destacada: 'no'
 tipo: "arriendo"
 date: "2019-07-13"
 precio: "$250.000"

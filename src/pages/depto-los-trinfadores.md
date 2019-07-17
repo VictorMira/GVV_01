@@ -1,5 +1,6 @@
 ---
 title: "Departamento Condominio los Triunfadores"
+destacada: 'no'
 tipo: "arriendo"
 date: "2019-07-10"
 precio: "$350.000"

@@ -1,5 +1,6 @@
 ---
 title: "Departamento Condominio Mirador Don Camilo"
+destacada: 'no'
 tipo: "arriendo"
 date: "2019-07-13"
 precio: "$270.000"

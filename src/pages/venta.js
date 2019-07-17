@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import { rhythm } from '../utils/typography';
-import Navbar from '../components/navbar';
+import Toolbar from '../components/Toolbar';
+import Footer from '../components/footer';
 import Layout from '../components/layout';
 
 import Img from 'gatsby-image'
@@ -11,7 +12,8 @@ export default ({data}) => {
     console.log(data)
     return (
     <Layout>
-        <Navbar />
+    <main style={{margin: '60px auto'}}>
+        <Toolbar />
         <h1 
         css={
             css`
@@ -19,11 +21,24 @@ export default ({data}) => {
             border-bottom: 1px solid;`
         }>Propiedades en Venta</h1>
             <h4>{data.allMarkdownRemark.totalCount} Propiedades Publicadas</h4>
+            <div style={{
+                display: 'flex', 
+                flexDirection: 'row', 
+                flexWrap: 'wrap',
+                alignItems: 'start',
+                alignContent: 'flex-start', 
+                width: '100%'}}>
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 <Link to={node.fields.slug} css={css`
                     text-decoration: none;
                     color: inherit;`}>
-                    <div key={node.id}>
+                    <div key={node.id} style={{
+                            width: '300px', 
+                            border: '1px solid #545454', 
+                            padding: '10px', 
+                            borderRadius: '5px', 
+                            boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
+                            margin: '15px'}}>
                     <Img fluid={node.frontmatter.album_image1.childImageSharp.fluid}/>
                         <h3 
                         css={css`
@@ -42,8 +57,9 @@ export default ({data}) => {
                 </Link>
             ))}
             
-        
-
+            </div>
+        <Footer />
+        </main>
     </Layout>
 )};
 

@@ -10,7 +10,7 @@ module.exports = {
     title: `GVV Propiedades`
   },
   plugins: [
-    
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

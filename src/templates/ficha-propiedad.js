@@ -2,6 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
+import Toolbar from '../components/Toolbar';
+import Footer from '../components/footer';
 
 
 import {FaBed, FaShower, FaWarehouse, FaRulerCombined } from 'react-icons/fa'
@@ -10,6 +12,7 @@ export default ({ data }) => {
     const propiedad = data.markdownRemark
     return (
         <Layout>
+            <Toolbar/>
             <div>
                 <h1>{propiedad.frontmatter.title}</h1>
                 <h2>Propiedad en {propiedad.frontmatter.tipo}</h2>
@@ -27,6 +30,7 @@ export default ({ data }) => {
                 <h3>Precio de {propiedad.frontmatter.tipo}</h3>
                 <h2>{propiedad.frontmatter.precio}</h2>
             </div>
+            <Footer />
         </Layout>
     )
 }

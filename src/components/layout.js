@@ -8,10 +8,12 @@ export default ({ children }) => (
 <div 
     css={css`
         margin: 0 auto;
-        max-width: 900px;
+        max-width: 1200px;
         padding: ${rhythm(2)};
         padding-top: ${rhythm(1.5)};
-        `}>
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;        `}>
     { children }
 </div>
 

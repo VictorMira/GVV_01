@@ -1,6 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import Img from 'gatsby-image';
+
 
 import {FaBed, FaShower, FaWarehouse, FaRulerCombined } from 'react-icons/fa'
 
@@ -11,7 +13,9 @@ export default ({ data }) => {
             <div>
                 <h1>{propiedad.frontmatter.title}</h1>
                 <h2>Propiedad en {propiedad.frontmatter.tipo}</h2>
-
+                <Img fluid={propiedad.frontmatter.cover_image.childImageSharp.fluid}/>
+                <Img fluid={propiedad.frontmatter.album_image1.childImageSharp.fluid}/>
+                <Img fluid={propiedad.frontmatter.album_image2.childImageSharp.fluid}/>
                 <h2>Descripción de la Propiedad</h2>
                 <div dangerouslySetInnerHTML={{ __html: propiedad.html}}/>
 
@@ -40,6 +44,28 @@ export const query = graphql`
                 estacionamiento
                 area_u
                 precio
+                cover_image {
+                    childImageSharp{
+                        fluid(maxWidth: 900){
+                         ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                album_image1 {
+                    childImageSharp{
+                        fluid(maxWidth: 900){
+                         ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                album_image2 {
+                    childImageSharp{
+                        fluid(maxWidth: 900){
+                         ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+
             }
         }
     }

@@ -15,7 +15,17 @@ bodega: "1"
 gastocomun: "No"
 area_u: "125m2"
 area_t: "S/I"
-
+cover_image: './dpto-camino-santa-juana/dpto-camino-sta-juana-01.jpg'
+album_image1: './dpto-camino-santa-juana/dpto-camino-sta-juana-01.jpg'
+album_image2: './dpto-camino-santa-juana/dpto-camino-sta-juana-02.jpg'
+album_image3: './dpto-camino-santa-juana/dpto-camino-sta-juana-03.jpg'
+album_image4: './dpto-camino-santa-juana/dpto-camino-sta-juana-04.jpg'
+album_image5: './dpto-camino-santa-juana/dpto-camino-sta-juana-05.jpg'
+album_image6: './dpto-camino-santa-juana/dpto-camino-sta-juana-06.jpg'
+album_image7: './dpto-camino-santa-juana/dpto-camino-sta-juana-07.jpg'
+album_image8: './dpto-camino-santa-juana/dpto-camino-sta-juana-08.jpg'
+album_image9: './dpto-camino-santa-juana/dpto-camino-sta-juana-09.jpg'
+album_image10: './dpto-camino-santa-juana/dpto-camino-sta-juana-10.jpg'
 ---
 
 ¡¡Gran oportunidad!! 

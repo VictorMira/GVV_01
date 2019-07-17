@@ -14,6 +14,17 @@ estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
 area_u: "S/I"
 area_t: "S/I"
+cover_image: './dpto-u-conce/dpto-u-conce-01.jpg'
+album_image1: './dpto-u-conce/dpto-u-conce-01.jpg'
+album_image2: './dpto-u-conce/dpto-u-conce-02.jpg'
+album_image3: './dpto-u-conce/dpto-u-conce-03.jpg'
+album_image4: './dpto-u-conce/dpto-u-conce-04.jpg'
+album_image5: './dpto-u-conce/dpto-u-conce-05.jpg'
+album_image6: './dpto-u-conce/dpto-u-conce-06.jpg'
+album_image7: './dpto-u-conce/dpto-u-conce-07.jpg'
+album_image8: './dpto-u-conce/dpto-u-conce-08.jpg'
+album_image9: './dpto-u-conce/dpto-u-conce-09.jpg'
+album_image10: './dpto-u-conce/dpto-u-conce-10.jpg'
 ---
 
 Arriendo departamento nuevo a pasos de Universidad de Concepcion.

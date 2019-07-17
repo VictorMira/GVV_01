@@ -14,6 +14,17 @@ estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
 area_u: "62,58m2"
 area_t: "S/I"
+cover_image: './dpto-bosque-urbano/dpto-bosque-urbano-01.jpg'
+album_image1: './dpto-bosque-urbano/dpto-bosque-urbano-01.jpg'
+album_image2: './dpto-bosque-urbano/dpto-bosque-urbano-02.jpg'
+album_image3: './dpto-bosque-urbano/dpto-bosque-urbano-03.jpg'
+album_image4: './dpto-bosque-urbano/dpto-bosque-urbano-04.jpg'
+album_image5: './dpto-bosque-urbano/dpto-bosque-urbano-05.jpg'
+album_image6: './dpto-bosque-urbano/dpto-bosque-urbano-06.jpg'
+album_image7: './dpto-bosque-urbano/dpto-bosque-urbano-07.jpg'
+album_image8: './dpto-bosque-urbano/dpto-bosque-urbano-08.jpg'
+album_image9: './dpto-bosque-urbano/dpto-bosque-urbano-09.jpg'
+album_image10: './dpto-bosque-urbano/dpto-bosque-urbano-10.jpg'
 ---
 
 Arriendo departamento nuevo

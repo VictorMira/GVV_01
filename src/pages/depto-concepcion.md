@@ -15,7 +15,17 @@ bodega: "No"
 gastocomun: "No"
 area_u: "S/I"
 area_t: "S/I"
-
+cover_image: '../dpto-concepcion/dpto-concepcion-01.jpg'
+album_image1: './dpto-concepcion/dpto-concepcion-01.jpg'
+album_image2: './dpto-concepcion/dpto-concepcion-02.jpg'
+album_image3: './dpto-concepcion/dpto-concepcion-03.jpg'
+album_image4: './dpto-concepcion/dpto-concepcion-04.jpg'
+album_image5: './dpto-concepcion/dpto-concepcion-05.jpg'
+album_image6: './dpto-concepcion/dpto-concepcion-06.jpg'
+album_image7: './dpto-concepcion/dpto-concepcion-07.jpg'
+album_image8: './dpto-concepcion/dpto-concepcion-08.jpg'
+album_image9: './dpto-concepcion/dpto-concepcion-09.jpg'
+album_image10: './dpto-concepcion/dpto-concepcion-10.jpg'
 ---
 
 Se vende Amplio departamento

@@ -14,7 +14,17 @@ estacionamiento: "1 Estacionamiento"
 gastocomun: "Gasto comun incluído"
 area_u: "S/I"
 area_t: "S/I"
-
+cover_image: './dpto-los-triunfadores/dpto-los-triunfadores-01.jpg'
+album_image1: './dpto-los-triunfadores/dpto-los-triunfadores-01.jpg'
+album_image2: './dpto-los-triunfadores/dpto-los-triunfadores-02.jpg'
+album_image3: './dpto-los-triunfadores/dpto-los-triunfadores-03.jpg'
+album_image4: './dpto-los-triunfadores/dpto-los-triunfadores-04.jpg'
+album_image5: './dpto-los-triunfadores/dpto-los-triunfadores-05.jpg'
+album_image6: './dpto-los-triunfadores/dpto-los-triunfadores-06.jpg'
+album_image7: './dpto-los-triunfadores/dpto-los-triunfadores-07.jpg'
+album_image8: './dpto-los-triunfadores/dpto-los-triunfadores-08.jpg'
+album_image9: './dpto-los-triunfadores/dpto-los-triunfadores-09.jpg'
+album_image10: './dpto-los-triunfadores/dpto-los-triunfadores-10.jpg'
 ---
 Departamento amplio, en cuarto piso, con excelente conectividad, a un costado de Universidad Santa Maria, a pasos de Mall del trébol, bancos, supermercados, aeropuerto, casino, colegios, universidades, locomoción.
 

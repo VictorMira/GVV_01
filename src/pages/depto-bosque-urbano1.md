@@ -14,7 +14,7 @@ estacionamiento: "No"
 gastocomun: "Gasto comun incluído"
 area_u: "62,58m2"
 area_t: "S/I"
-featuredImage: "dpto-bosque-urbano-1.jpg"
+cover: dpto-bosque-urbano-1.jpg
 ---
 
 Arriendo departamento nuevo

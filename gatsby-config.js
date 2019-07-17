@@ -40,6 +40,7 @@ module.exports = {
         pathTonConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-remark-images`,
       options: {

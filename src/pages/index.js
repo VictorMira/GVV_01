@@ -2,7 +2,7 @@ import React from "react";
 import Layout from '../components/layout'
 import { Link, graphql } from 'gatsby';
 
-//import Navbar from '../components/navbar';
+
 
 import Toolbar from '../components/Toolbar';
 //import SideDrawer from '../components/SideDrawer/Sidedrawer';
@@ -13,33 +13,43 @@ import { css } from '@emotion/core';
 import { rhythm } from '../utils/typography';
 
 import Img from 'gatsby-image';
+import Portada from './Portada.jpg'
 
-import {FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks } from 'react-icons/fa'
+import {FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks, FaBed, FaShower, FaRulerCombined } from 'react-icons/fa'
 
 
 export default ({data}) => (
   <div>
     <Layout style={{height: '100%'}}>
         <Toolbar />
-        <main style={{  marginTop: '60px', 
+        <main style={{  marginTop: '25px', 
                         marginBottom: '250px', 
                         minHeight: '100vh', 
                         overflow: 'hidden', 
                         position: 'relative', 
                         display: 'block' }}>
-            <h1>Publica tu Propiedad</h1>
+            <div style={{
+                height: '600px', 
+                width: '100%',
+                background: 'grey',
+                backgroundImage: `url(${Portada})`,
+                backgroundSize: '100%',
+                backgroundRepeat: 'no-repeat'
+
+                }}>
+                <h1>Publica tu Propiedad</h1>
+            </div>
             <h1>Propiedades Destacadas</h1>
             <div style={{display: 'flex', flexDirection: 'row',flexWrap: 'wrap',  width: '100%'}}>
             {data.allMarkdownRemark.edges.map(({ node }) => (
                     
             
-                        <Link to={node.fields.slug} css={css`
+                        <Link key={node.id} to={node.fields.slug} css={css`
                             text-decoration: none;
                             color: inherit;
                             `}>
-                            <div key={node.id} style={{
+                            <div style={{
                                 width: '300px', 
-                                border: '1px solid #545454', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -54,10 +64,17 @@ export default ({data}) => (
                                         color: #3C3C3A; 
                                         `}
                                     >
-                                        - {node.frontmatter.precio}
+                                    
                                     </span>
                                 </h3>
                                 <p>{node.excerpt}</p>
+                                <ul style={{listStyle: 'none', fontSize: '0.8rem', fontWeight: 'bold'}}>
+                                    <li>Habitaciones <FaBed/> {node.frontmatter.dormitorios_c}</li>
+                                    <li>Baños <FaShower />{node.frontmatter.bano_c}</li>
+                                    <li>Superficie <FaRulerCombined /> {node.frontmatter.area_u}</li>
+                                </ul>
+                                <p style={{textTransform: 'capitalize'}} >{node.frontmatter.tipo}</p>
+                                <h3 style={{color: '#58DB74', textAlign: 'right'}}>{node.frontmatter.precio}</h3>
                             </div>
                         </Link>
                         
@@ -92,6 +109,9 @@ export const query = graphql`
                         title
                         precio
                         tipo
+                        bano_c
+                        dormitorios_c
+                        area_u
                         album_image1 {
                             childImageSharp{
                                  fluid(maxWidth: 900){

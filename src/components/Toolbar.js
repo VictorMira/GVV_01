@@ -9,7 +9,7 @@ const toolbar = props => (
         <nav className="toolbar__navigation">
             
             <Link to='/' ><img className="toolbar__logo" src={Logo} style={{ height: '40px'}} alt="GVV Logo"></img></Link>
-            <h1 className="toolbar__title"><span style={{color: 'white'}}>GVV</span> PROPIEDADES</h1>
+            <h2 className="toolbar__title"><span style={{color: 'white'}}>GVV</span> PROPIEDADES</h2>
             <div className="spacer" />
             <div className="toolbar__navigation-items">
                 <ul>

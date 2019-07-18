@@ -37,6 +37,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    height: auto;
 }
 
 .toolbar__navigation-items li {
@@ -46,10 +47,12 @@
 .toolbar__navigation-items a{
     color: white;
     text-decoration: none;
+    padding: 25px;
+    margin: 0;
 }
 
-.toolbar__navigation-items li:hover,
-.toolbar__navigation-items li:active {
-    color: white;
-    background: rgb(245, 213, 68);
+.toolbar__navigation-items a:hover,
+.toolbar__navigation-items a:active {
+    background: rgb(234, 172, 8);
+    color: '#000';
 }

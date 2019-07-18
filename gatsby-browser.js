@@ -1,2 +1,2 @@
-//import './src/assets/styles/global.css';
+import './src/global.css';
 

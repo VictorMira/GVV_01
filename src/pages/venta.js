@@ -11,56 +11,63 @@ import Img from 'gatsby-image'
 export default ({data}) => {
     console.log(data)
     return (
-    <Layout>
-    <main style={{margin: '60px auto'}}>
-        <Toolbar />
-        <h1 
-        css={
-            css`
-            display: inline-block;
-            border-bottom: 1px solid;`
-        }>Propiedades en Venta</h1>
-            <h4>{data.allMarkdownRemark.totalCount} Propiedades Publicadas</h4>
-            <div style={{
-                display: 'flex', 
-                flexDirection: 'row', 
-                flexWrap: 'wrap',
-                alignItems: 'start',
-                alignContent: 'flex-start', 
-                width: '100%'}}>
-            {data.allMarkdownRemark.edges.map(({ node }) => (
-                <Link to={node.fields.slug} css={css`
-                    text-decoration: none;
-                    color: inherit;`}>
-                    <div key={node.id} style={{
-                            width: '300px', 
-                            border: '1px solid #545454', 
-                            padding: '10px', 
-                            borderRadius: '5px', 
-                            boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                            margin: '15px'}}>
-                    <Img fluid={node.frontmatter.album_image1.childImageSharp.fluid}/>
-                        <h3 
-                        css={css`
-                        margin-bottom: ${rhythm(1 / 4)};
-                        `}>
-                            {node.frontmatter.title}{" "}
-                            <span css={css`
-                                color: #3C3C3A; 
-                            `}
-                            >
-                                - {node.frontmatter.precio}
-                            </span>
-                        </h3>
-                        <p>{node.excerpt}</p>
-                    </div>
-                </Link>
-            ))}
-            
-            </div>
+        <div>
+        <Layout>
+        <main style={{margin: '60px auto', 
+                        marginBottom: '250px', 
+                        minHeight: '100vh', 
+                        overflow: 'hidden', 
+                        position: 'relative', 
+                        display: 'block'}}>
+            <Toolbar />
+            <h1 
+            css={
+                css`
+                display: inline-block;
+                border-bottom: 1px solid;`
+            }>Propiedades en Venta</h1>
+                <h4>{data.allMarkdownRemark.totalCount} Propiedades Publicadas</h4>
+                <div style={{
+                    display: 'flex', 
+                    flexDirection: 'row', 
+                    flexWrap: 'wrap',
+                    alignItems: 'start',
+                    alignContent: 'flex-start', 
+                    width: '100%'}}>
+                {data.allMarkdownRemark.edges.map(({ node }) => (
+                    <Link to={node.fields.slug} css={css`
+                        text-decoration: none;
+                        color: inherit;`}>
+                        <div key={node.id} style={{
+                                width: '300px', 
+                                border: '1px solid #545454', 
+                                padding: '10px', 
+                                borderRadius: '5px', 
+                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
+                                margin: '15px'}}>
+                        <Img fluid={node.frontmatter.album_image1.childImageSharp.fluid}/>
+                            <h3 
+                            css={css`
+                            margin-bottom: ${rhythm(1 / 4)};
+                            `}>
+                                {node.frontmatter.title}{" "}
+                                <span css={css`
+                                    color: #3C3C3A; 
+                                `}
+                                >
+                                    - {node.frontmatter.precio}
+                                </span>
+                            </h3>
+                            <p>{node.excerpt}</p>
+                        </div>
+                    </Link>
+                ))}
+                
+                </div>
+            </main>
+        </Layout>
         <Footer />
-        </main>
-    </Layout>
+    </div>
 )};
 
 export const query = graphql`

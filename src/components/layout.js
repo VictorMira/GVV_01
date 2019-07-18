@@ -9,6 +9,7 @@ export default ({ children }) => (
     css={css`
         margin: 0 auto;
         max-width: 1200px;
+        min-height: 100%;
         padding: ${rhythm(2)};
         padding-top: ${rhythm(1.5)};
         display: flex;

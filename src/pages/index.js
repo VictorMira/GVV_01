@@ -15,7 +15,7 @@ import { rhythm } from '../utils/typography';
 import Img from 'gatsby-image';
 import Portada from './Portada.jpg'
 
-import {FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks, FaBed, FaShower, FaRulerCombined, FaCentercode} from 'react-icons/fa'
+import {FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks, FaBed, FaShower, FaRulerCombined} from 'react-icons/fa'
 
 
 export default ({data}) => (

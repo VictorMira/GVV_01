@@ -3,13 +3,13 @@
     bottom: 0%;
     width: 100%;
     height: 250px;
-    background-image: url('./Footer.png');
+    background-image: url('./Footer1.png');
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
     clear: both;
-    margin-top: -200px;
+    margin-top: -250px;
     
 }
 

@@ -12,7 +12,7 @@ cocina: "Cocina americana equipada y amoblada"
 living: "S/I"
 logia: "No"
 estacionamiento: "No"
-gastocomun: "Gasto comun incluído"
+gastocomun: "Incluído"
 area_u: "S/I"
 area_t: "S/I"
 cover_image: './dpto-u-conce/dpto-u-conce-01.jpg'

@@ -13,7 +13,7 @@ cocina: "Cocina amoblada y equipada"
 living: "Living con cerámico y calefacción"
 logia: "No"
 estacionamiento: "No"
-gastocomun: "Gasto comun incluído"
+gastocomun: "Incluído"
 area_u: "S/I"
 area_t: "S/I"
 cover_image: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-01.jpg'

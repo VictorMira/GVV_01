@@ -52,7 +52,7 @@ export default ({data}) => (
                         textIndent: '10px',
                         color: '#FFFFFF',
                         textShadow: '0px 4px 4px rgba(0, 0, 0, 0.5)',
-                }}>Publica tu Propiedad</h1>
+                }}>Busca tu Propiedad</h1>
             </div>
             <div style={{
                 background: '#C4C4C4'

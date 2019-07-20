@@ -12,7 +12,7 @@ cocina: "Cocina americana equipada y amoblada"
 living: "S/I"
 logia: "No"
 estacionamiento: "No"
-gastocomun: "Gasto comun incluído"
+gastocomun: "Incluído"
 area_u: "62,58m2"
 area_t: "S/I"
 cover_image: './dpto-bosque-urbano/dpto-bosque-urbano-01.jpg'

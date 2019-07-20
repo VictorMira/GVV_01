@@ -100,15 +100,16 @@ export default ({ data }) => {
                             flexWrap: 'wrap'
                         }}>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
                                 margin: '15px',
-                                background: '#fff'}}>
-                                    <Link to={propiedad.frontmatter.album_image1.childImageSharp.fluid}><Img fluid={propiedad.frontmatter.album_image1.childImageSharp.fluid}/></Link></div>
+                                background: '#fff',
+                                }}>
+                                    <Img fluid={propiedad.frontmatter.album_image1.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -116,7 +117,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image2.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -124,7 +125,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image3.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -132,7 +133,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image4.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -140,7 +141,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image5.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -148,7 +149,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image6.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -156,7 +157,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image7.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -164,7 +165,7 @@ export default ({ data }) => {
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image8.childImageSharp.fluid}/></div>
                             <div style={{
-                                width: '300px', 
+                                width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 
                                 boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
@@ -196,24 +197,25 @@ export default ({ data }) => {
 
                 </div>
                 </div>
-                <div><a href="mailto:corredora@gvvpropiedades.com" style={{
+                <a href="mailto:corredora@gvvpropiedades.com" style={{
+                            display: 'block',
                             boxShadow: '0px 4px 4px 0px rgba(0,0,0,0.25)',
 	                        backgroundColor:'#F9B234',
 	                        borderRadius:'10px',
 	                        border:'1px solid #ffaa22',
 	                        cursor:'pointer',
 	                        fontSize:'15px',
+                            padding: '15px',
 	                        fontWeight:'bold',
-                            padding:'13px 100px',
-	                        textDecoration:'none',
+                            textDecoration:'none',
 	                        textShadow:'0px 1px 0px #ffee66',
                             color: '#000',
                             textAlign: 'center',
-                            marginLeft: '30px'
+                            marginLeft: '15px'
                             
                             }}>
                                 Contactanos
-                            </a></div>
+                            </a>
             </div>
             </main>
             </Layout>

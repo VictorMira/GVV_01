@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
-import { css } from '@emotion/core';
-import { rhythm } from '../utils/typography';
+import {  graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Toolbar from '../components/Toolbar';
 import Footer from '../components/footer';
@@ -124,7 +122,7 @@ export default ({ data }) => {
                                 margin: '15px',
                                 background: '#fff'}}>
                                             <Img fluid={propiedad.frontmatter.album_image3.childImageSharp.fluid}/></div>
-                            <div style={{
+                                            <div style={{
                                 width: '30%', 
                                 padding: '10px', 
                                 borderRadius: '5px', 

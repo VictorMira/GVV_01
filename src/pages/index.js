@@ -32,6 +32,7 @@ export default ({data}) => (
                 display: 'block', }}>
             <div style={{
                 display: 'flex',
+                flexDirection: 'column',
                 width: '100%',
                 height: '600px',
                 background: 'grey', 
@@ -39,7 +40,9 @@ export default ({data}) => (
                 backgroundSize: '100% 100%' ,
                 backgroundRepeat: 'no-repeat',
                 alignItems: 'center',
-                justifyContent: 'center'
+                justifyContent: 'center',
+
+
 
                 }}>
                 <h1 style={{
@@ -53,6 +56,26 @@ export default ({data}) => (
                         color: '#FFFFFF',
                         textShadow: '0px 4px 4px rgba(0, 0, 0, 0.5)',
                 }}>Busca tu Propiedad</h1>
+                <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        fontStyle: 'normal',
+                        fontWeight: 'bold',
+                        fontSize: '20px',
+                        textAlign: 'center',
+                        textIndent: '10px',
+                        textShadow: '0px 4px 4px rgba(0, 0, 0, 0.2)',
+                        background: 'rgba(0, 0, 0, 0.3)',
+                        color: '#fff',
+                        padding: '25px',
+                        margin: '0 50px',
+                        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+                        borderRadius: '5px'
+                }}>
+                <p >En GVV Propiedades trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
+y para eso el principal pilar es comenzar con un trato amable, abierto y mucha confianza.</p>
+                <p>Contáctanos para guiarte, apoyarte y asesorarte en el mundo inmobiliario.</p>
+                </div>
             </div>
             <div style={{
                 background: '#C4C4C4'
@@ -132,7 +155,7 @@ export default ({data}) => (
                         color: '#FFFFFF',
                         textShadow: '0px 4px 4px rgba(0, 0, 0, 0.5)',
                         justifyContent: 'center'
-                }}>Pasos a Seguir Para Publicar</h1>
+                }}>¿Quieres vender o arrendar tu propiedad?</h1>
                 <h2 style={{
                         display: 'flex',
                         fontStyle: 'normal',
@@ -142,7 +165,7 @@ export default ({data}) => (
                         color: '#FFFFFF',
                         textShadow: '0px 4px 4px rgba(0, 0, 0, 0.5)',
                         justifyContent: 'center'
-                }}>¿Cómo Publicar?</h2>
+                }}>¡Contáctanos! </h2>
                 <div style={{
                 background: '#C4C4C4',
                 color: '#000',
@@ -173,7 +196,7 @@ export default ({data}) => (
                 borderRadius: '5px'
             }}>
                     <h3>3. Fotografías de la Propiedad</h3>
-                    <p><FaCameraRetro /> Nos encargaremos de fotografiar y grabar tu propiedad para entregar al potencial comprador/arrendatario una clara idea de las características y de la ubicación de la propiedad.</p>
+                    <p><FaCameraRetro /> Nos encargaremos de fotografiar tu propiedad para entregar al potencial comprador/arrendatario una clara idea de las características y ubicación de la propiedad.</p>
                     <h3>4. Publicación</h3>
                     <p><FaTasks /> Publicaremos tu propiedad en nuestro sitio web y en las plataformas digitales más importantes del país, para darte la mayor exposición posible y maximizar las oportunidades de ser visto.</p>
                     </div>

@@ -14,7 +14,7 @@ living: "Living Comedor con vista al mar y salida a terraza"
 estacionamiento: "1"
 bodega: "S/I"
 gastocomun: "No"
-area_u: "90.34m2"
+area_u: "65m2"
 area_t: "S/I"
 cover_image: './dpto-olas/dpto-olas-01.jpg'
 album_image1: './dpto-olas/dpto-olas-01.jpg'
@@ -31,6 +31,7 @@ album_image10: './dpto-olas/dpto-olas-10.jpg'
 
 ¡Excelente oportunidad!
 Se vende Hermoso departamento amplio con vista al mar en condominio Olas, San Pedro de La Paz.
+Todas las habitaciones cuentan con una hermosa vista al mar, cocina cerrada, y logia.
 
 * Dormitorio principal con baño en suite y walking closet
 * Ventanas Termopanel

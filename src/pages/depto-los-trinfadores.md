@@ -16,7 +16,7 @@ gastocomun: "Incluído"
 area_u: "S/I"
 area_t: "S/I"
 cover_image: './dpto-los-triunfadores/dpto-los-triunfadores-01.jpg'
-album_image1: './dpto-los-triunfadores/dpto-los-triunfadores-01.jpg'
+album_image1: './dpto-los-triunfadores/dpto-los-triunfadores-01_A.jpg'
 album_image2: './dpto-los-triunfadores/dpto-los-triunfadores-02.jpg'
 album_image3: './dpto-los-triunfadores/dpto-los-triunfadores-03.jpg'
 album_image4: './dpto-los-triunfadores/dpto-los-triunfadores-04.jpg'

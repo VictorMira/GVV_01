@@ -16,7 +16,7 @@ gastocomun: "Incluído"
 area_u: "62,58m2"
 area_t: "S/I"
 cover_image: './dpto-bosque-urbano/dpto-bosque-urbano-01.jpg'
-album_image1: './dpto-bosque-urbano/dpto-bosque-urbano-01.jpg'
+album_image1: './dpto-bosque-urbano/dpto-bosque-urbano-01_A.jpg'
 album_image2: './dpto-bosque-urbano/dpto-bosque-urbano-02.jpg'
 album_image3: './dpto-bosque-urbano/dpto-bosque-urbano-03.jpg'
 album_image4: './dpto-bosque-urbano/dpto-bosque-urbano-04.jpg'

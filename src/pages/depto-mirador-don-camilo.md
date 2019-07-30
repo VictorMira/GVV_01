@@ -17,7 +17,7 @@ gastocomun: "Incluído"
 area_u: "S/I"
 area_t: "S/I"
 cover_image: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-01.jpg'
-album_image1: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-01.jpg'
+album_image1: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-01_A.jpg'
 album_image2: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-02.jpg'
 album_image3: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-03.jpg'
 album_image4: './dpto-mirador-don-camilo/dpto-mirador-don-camilo-04.jpg'

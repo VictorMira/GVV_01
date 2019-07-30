@@ -32,6 +32,7 @@ album_image10: './dpto-camino-santa-juana/dpto-camino-sta-juana-10.jpg'
 ¡¡Gran oportunidad!! 
 Se vende Departamento camino a Santa Juana
 Sector de alta Plusvalía a pocos minutos del centro de Concepcion.
+El departamento cuenta con ventanas termo panel, amplio living comedor, cocina amoblada y equipada con encimera, horno y campana, estufa a combustión lenta, amplia Terraza con vista al rio bio bio y ciudad concepción .
 
 * Departamento tipo Americano
 * Acceso independiente

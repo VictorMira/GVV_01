@@ -22,7 +22,7 @@ export default ({ data }) => {
                 <h1 className="main__container-header-titulo">FICHA DE PROPIEDAD</h1>
                 </div>
                 <h2 className="main__container-titulo">{propiedad.frontmatter.title}</h2>
-                <h3>Propiedad en {propiedad.frontmatter.tipo}</h3>
+                <h3 className="main__container-subtitulo">Propiedad en {propiedad.frontmatter.tipo}</h3>
                 <div className="main__container-ficha">
                     <div className="main__container-ficha-fondo">
                         <div className="main__container-ficha-fondo-fotos">
@@ -57,7 +57,7 @@ export default ({ data }) => {
                                 <p>Gasto Común: {propiedad.frontmatter.gastocomun}</p>
                             </div>
                             <div className="precio__container">
-                                <h3 >Precio de {propiedad.frontmatter.tipo}</h3>
+                                <h3 className="main__container-subtitulo">Precio de {propiedad.frontmatter.tipo}</h3>
                                 <h1 className="precio-operacion">{propiedad.frontmatter.precio}</h1>
 
                             </div>

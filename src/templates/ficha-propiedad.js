@@ -1,12 +1,12 @@
 import React from 'react';
 import {  graphql } from 'gatsby';
 import Layout from '../components/layout';
-import Toolbar from '../components/Toolbar';
 import Footer from '../components/footer';
+
+import './ficha-propiedad.css';
 
 
 import Img from 'gatsby-image';
-import Ficha from './Ficha1.jpg';
 
 import {FaBed, FaShower, FaWarehouse, FaRulerCombined } from 'react-icons/fa';
 
@@ -16,204 +16,56 @@ export default ({ data }) => {
     return (
         <div>
         <Layout>
-            <main style={{margin: '20px auto', 
-                            marginBottom: '250px',
-                            width: '100%', 
-                            minHeight: '100vh', 
-                            overflow: 'hidden', 
-                            position: 'relative',
-                            display: 'block' }}>
-            <Toolbar/>
-            <div style={{
-                background: '#C4C4C4',
-                height: '100%',
-                paddingBottom: '30px'
-                }}>
-                <div style={{
-                display: 'flex',
-                width: '100%',
-                height: '500px',
-                background: 'grey', 
-                backgroundImage: `url(${Ficha})`,
-                backgroundSize: '100% 100%' ,
-                backgroundRepeat: 'no-repeat',
-                alignItems: 'center',
-                justifyContent: 'center'
-
-                }}>
-                <h1 style={{
-                        display: 'flex',
-                        fontStyle: 'normal',
-                        fontWeight: 'bold',
-                        fontSize: '36px',
-                        lineHeight: '42px',
-                        textIndent: '10px',
-                        color: '#FFFFFF',
-                        textShadow: '0px 4px 4px rgba(0, 0, 0, 0.5)',
-                        padding: '20px',
-                        justifyContent: 'center'
-                }}>FICHA DE PROPIEDAD</h1>
+            <main className="main">
+            <div className="main__container">
+                <div className="main__container-header">
+                <h1 className="main__container-header-titulo">FICHA DE PROPIEDAD</h1>
                 </div>
-                <h2 style={{
-                        display: 'flex',
-                        fontStyle: 'normal',
-                        fontWeight: 'bold',
-                        fontSize: '36px',
-                        lineHeight: '42px',
-                        textIndent: '10px',
-                        color: '#FFFFFF',
-                        textShadow: '0px 4px 4px rgba(0, 0, 0, 0.5)',
-                        padding: '20px',
-                        justifyContent: 'center'
-                }}>{propiedad.frontmatter.title}</h2>
-                <h3 style={{
-                        display: 'flex',
-                        fontStyle: 'normal',
-                        fontWeight: 'bold',
-                        lineHeight: '10px',
-                        textIndent: '10px',
-                        color: '#000',
-                        textShadow: '0px 4px 4px rgba(0, 0, 0, 0.2)',
-                        paddingTop: '10px'}}>Propiedad en {propiedad.frontmatter.tipo}</h3>
-                <div style={{
-                    display: 'flex', 
-                    flexDirection: 'row',
-                    flexWrap: 'wrap',  
-                    width: '100%',
-                    justifyContent: 'center',
-                    marginBottom: '50px'
-                     }}>
-                     <div style={{
-                                width: '100%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff',
-                                
-                                }}>
-                        <div style={{
-                            display: 'flex',
-                            flexDirection: 'row',
-                            flexWrap: 'wrap'
-                        }}>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff',
-                                }}>
-                                    <Img fluid={propiedad.frontmatter.album_image1.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image2.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image3.childImageSharp.fluid}/></div>
-                                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image4.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image5.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image6.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image7.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image8.childImageSharp.fluid}/></div>
-                            <div style={{
-                                width: '30%', 
-                                padding: '10px', 
-                                borderRadius: '5px', 
-                                boxShadow:'0 4px 4px rgba(0,0,0,0.25)', 
-                                margin: '15px',
-                                background: '#fff'}}>
-                                            <Img fluid={propiedad.frontmatter.album_image9.childImageSharp.fluid}/></div>
+                <h2 className="main__container-titulo">{propiedad.frontmatter.title}</h2>
+                <h3>Propiedad en {propiedad.frontmatter.tipo}</h3>
+                <div className="main__container-ficha">
+                    <div className="main__container-ficha-fondo">
+                        <div className="main__container-ficha-fondo-fotos">
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image1.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image2.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image3.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image4.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image5.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image6.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image7.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image8.childImageSharp.fluid}/></div>
+                            <div className="main__container-ficha-fondo-fotos-foto">
+                                <Img fluid={propiedad.frontmatter.album_image9.childImageSharp.fluid}/></div>
                         </div>   
-                <div style={{
-                    padding: '30px'
-                }}>
-                <h2>Descripción de la Propiedad</h2>
-                <div dangerouslySetInnerHTML={{ __html: propiedad.html}}/>                   
-                <h2>Caracteristicas de la Propiedad</h2>
-                <div style={{
-                            display: 'flex',
-                            flexDirection: 'row',
-                            justifyContent: 'space-around',
-                            flexWrap: 'wrap',
-                        }}>
-                <p>Habitaciones <FaBed/> {propiedad.frontmatter.dormitorios_c}</p>
-                <p>Baños <FaShower /> {propiedad.frontmatter.bano_c}</p>
-                <p>Estacionamiento <FaWarehouse/> {propiedad.frontmatter.estacionamiento}</p>
-                <p>Superficie <FaRulerCombined /> {propiedad.frontmatter.area_u}</p>
-                <p>Gasto Común: {propiedad.frontmatter.gastocomun}</p>
-                </div>
-                </div>                   
-                <h4>Precio de {propiedad.frontmatter.tipo}</h4>
-                <h1>{propiedad.frontmatter.precio}</h1>
+                        
+                                <h2 className="main__container-ficha-titulo">Descripción de la Propiedad</h2>
+                                <div className="main__container-ficha-texto" dangerouslySetInnerHTML={{ __html: propiedad.html}}/>                   
+                                <h2 className="main__container-ficha-titulo">Caracteristicas de la Propiedad</h2>
+                            <div className="main__container-ficha-caracteristicas">
+                                <p>Habitaciones <FaBed/> {propiedad.frontmatter.dormitorios_c}</p>
+                                <p>Baños <FaShower /> {propiedad.frontmatter.bano_c}</p>
+                                <p>Estacionamiento <FaWarehouse/> {propiedad.frontmatter.estacionamiento}</p>
+                                <p>Superficie <FaRulerCombined /> {propiedad.frontmatter.area_u}</p>
+                                <p>Gasto Común: {propiedad.frontmatter.gastocomun}</p>
+                            </div>
+                            <div className="precio__container">
+                                <h3 >Precio de {propiedad.frontmatter.tipo}</h3>
+                                <h1 className="precio-operacion">{propiedad.frontmatter.precio}</h1>
 
+                            </div>
+                                          
+
+                    </div>
                 </div>
-                </div>
-                <a href="mailto:corredora@gvvpropiedades.com" style={{
-                            display: 'block',
-                            boxShadow: '0px 4px 4px 0px rgba(0,0,0,0.25)',
-	                        backgroundColor:'#F9B234',
-	                        borderRadius:'10px',
-	                        border:'1px solid #ffaa22',
-	                        cursor:'pointer',
-	                        fontSize:'15px',
-                            padding: '15px',
-	                        fontWeight:'bold',
-                            textDecoration:'none',
-	                        textShadow:'0px 1px 0px #ffee66',
-                            color: '#000',
-                            textAlign: 'center',
-                            marginLeft: '15px'
-                            
-                            }}>
-                                Contactanos
-                            </a>
+                <a href="mailto:corredora@gvvpropiedades.com" className="button"><span>Contactanos </span></a>
             </div>
             </main>
             </Layout>

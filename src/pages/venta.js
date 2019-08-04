@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import { rhythm } from '../utils/typography';
-import Toolbar from '../components/Toolbar';
 import Footer from '../components/footer';
 import Layout from '../components/layout';
 
@@ -23,7 +22,6 @@ export default ({data}) => {
                         overflow: 'hidden', 
                         position: 'relative', 
                         display: 'block'}}>
-            <Toolbar />
             <div style={{
                 background: '#C4C4C4'
             }}>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Toolbar from '../components/Toolbar';
 import Layout from '../components/layout';
 import Footer from '../components/footer'
 
@@ -18,7 +17,7 @@ export default () => (
                             overflow: 'hidden', 
                             position: 'relative',
                             display: 'block' }}>
-        <Toolbar />
+       
         <div style={{ color: '#000'}}>
             <div style={{
                 display: 'flex',

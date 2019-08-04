@@ -1,21 +1,55 @@
-import React from "react";
-import { css } from '@emotion/core';
+import React, { Component } from "react";
 
-import { rhythm } from '../utils/typography';
+import Toolbar from '../components/Toolbar';
+import SideDrawer from '../components/SideDrawer/Sidedrawer';
+import Backdrop from '../components/Backdrop/Backdrop';
 
-export default ({ children }) => (
+class Layout extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            sideDrawerOpen: false
+          };
+    }
+       
+      drawerToggleClickHandler = () => {
+        this.setState((prevState) => {
+          return { sideDrawerOpen: !prevState.sideDrawerOpen};
+        } )
+      }
+    
+      backdropClickHandler = () => {
+        this.setState({sideDrawerOpen: false})
+      }
+render (){
+    const { children } = this.props;
+    let backdrop;
 
-<div 
-    css={css`
-        margin: 0 auto;
-        max-width: 1200px;
-        min-height: 100%;
-        padding: ${rhythm(2)};
-        padding-top: ${rhythm(1.5)};
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;        `}>
-    { children }
-</div>
+  if(this.state.sideDrawerOpen) {
+    backdrop = <Backdrop click={this.backdropClickHandler}/>;
+  };
+  return (
+    <div>
+        <div style={{margin: '0 auto',
+        maxWidth: '1200px',
+        minHeight: '100%',
+        marginTop: '35px',
+        display: 'flex',
+        justifyContent: 'center',
+        flexWrap: 'wrap'}}>
+            <Toolbar drawerClickHandler = {this.drawerToggleClickHandler}/>
+            <SideDrawer show={this.state.sideDrawerOpen}/>
 
-);
+        {backdrop}
+    
+        { children }
+        </div>
+    </div>
+    
+    );
+}
+
+};
+
+export default Layout;
+

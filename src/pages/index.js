@@ -27,6 +27,7 @@ export default ({data}) => (
                 <p >En GVV Propiedades trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
 y para eso el principal pilar es comenzar con un trato amable, abierto y mucha confianza.</p>
                 <p>Contáctanos para guiarte, apoyarte y asesorarte en el mundo inmobiliario.</p>
+                
                 </div>
             </div>
             <div style={{

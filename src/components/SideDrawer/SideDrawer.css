@@ -1,6 +1,6 @@
 .side-drawer {
     height: 100%;
-    background: white;
+    background: #3c3c3a;
     box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
@@ -8,12 +8,17 @@
     width: 70%;
     max-width: 400px;;
     z-index: 200;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     transition: transform 0.3s ease-out;
   }
   
   .side-drawer.open {
     transform: translateX(0);
+  }
+
+  .side-drawer img {
+    width: 25%;
+    margin: 10px;
   }
   
   .side-drawer ul {
@@ -29,9 +34,13 @@
   }
   
   .side-drawer a {
-    color: #666;
+    display: block;
+    color: #000;
     text-decoration: none;
     font-size: 1.2rem;
+    background: #F9B234;
+    padding: 10px;
+    
   }
   
   .side-drawer a:hover,

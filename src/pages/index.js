@@ -13,7 +13,7 @@ import Footer from '../components/footer';
 
 import './index.css'
 
-import {FaBed, FaShower, FaRulerCombined, FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks} from 'react-icons/fa'
+import {FaWhatsapp, FaBed, FaShower, FaRulerCombined, FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks} from 'react-icons/fa'
 
 
 export default ({data}) => (
@@ -79,9 +79,10 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                     <h3>4. Publicación</h3>
                     <p><FaTasks /> Publicaremos tu propiedad en nuestro sitio web y en las plataformas digitales más importantes del país, para darte la mayor exposición posible y maximizar las oportunidades de ser visto.</p>
             </div>
-                    <a href="mailto:corredora@gvvpropiedades.com" className="button">
-                                <span>Contactanos </span>
-                            </a>
+                    <a href="mailto:corredora@gvvpropiedades.com" className="button__mail">
+                                <span>Contactanos </span></a>
+                    <a href="https://wa.me/56993356611" className="button__whatsapp">
+                                <span><FaWhatsapp /> Contactanos </span></a>
                 </div>
             </div> 
         </main>

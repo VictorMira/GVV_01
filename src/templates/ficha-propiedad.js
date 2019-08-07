@@ -8,7 +8,7 @@ import './ficha-propiedad.css';
 
 import Img from 'gatsby-image';
 
-import {FaBed, FaShower, FaWarehouse, FaRulerCombined } from 'react-icons/fa';
+import {FaBed, FaShower, FaWarehouse, FaRulerCombined, FaWhatsapp } from 'react-icons/fa';
 
 export default ({ data }) => {
     const propiedad = data.markdownRemark;
@@ -66,6 +66,8 @@ export default ({ data }) => {
                     </div>
                 </div>
                 <a href="mailto:corredora@gvvpropiedades.com" className="button"><span>Contactanos </span></a>
+                <a href="https://wa.me/56993356611" className="button__whatsapp">
+                                <span><FaWhatsapp /> Contactanos </span></a>
             </div>
             </main>
             </Layout>

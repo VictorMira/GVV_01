@@ -1,5 +1,5 @@
 ---
-title: "Departamento Condominio Bosque Mar"
+title: "Departamento Condominio Olas"
 destacada: 'no'
 tipo: "venta"
 date: "2019-07-14"

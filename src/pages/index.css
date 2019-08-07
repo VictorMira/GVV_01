@@ -142,7 +142,7 @@
   width: 100%;
 }
 
-.button {
+.button__mail {
   /* display: block; */
   border-radius: 4px;
   background-color: rgb(234, 172, 8);
@@ -157,14 +157,14 @@
   
   }
 
-.button span {
+.button__mail span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.button__mail span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -173,11 +173,51 @@
   transition: 0.5s;
 }
 
-.button:hover span {
+.button__mail:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.button__mail:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button__whatsapp {
+  display: none;
+  border-radius: 4px;
+  background-color: #58DB74;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  }
+
+.button__whatsapp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button__whatsapp span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button__whatsapp:hover span {
+  padding-right: 25px;
+}
+
+.button__whatsapp:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -213,5 +253,17 @@
     padding: 0;
     padding-top: 15px;
   }
+
+  .button__mail {
+    display: none;
+  }
+
+  .button__whatsapp {
+    display: block;
+    background: #58DB74;
+  }
 }
 
+@media (min-width: 769px){
+
+}
